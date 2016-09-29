@@ -22,15 +22,15 @@ Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ContentMgmt", "ContentServi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFContent", "SFContent\SFContent.csproj", "{886A840A-4743-4E48-8A83-E15F6898DEBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "base.Storage", "base.storage\base.Storage.csproj", "{207C9036-FC70-4062-869F-67D0C2E1F029}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mall.Products.Storage", "base.storage\Mall.Products.Storage.csproj", "{207C9036-FC70-4062-869F-67D0C2E1F029}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage", "Storage", "{A24E891A-E726-42B5-97F9-20376F6DD11D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{879A6853-9673-47B9-A85A-EF374FD49FC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "base.Core", "base.Core\base.Core.csproj", "{CAACA161-2938-43EE-8ABF-8BEC7AAE0318}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mall.Core", "base.Core\Mall.Core.csproj", "{CAACA161-2938-43EE-8ABF-8BEC7AAE0318}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "base.Common", "base.Common\base.Common.csproj", "{9C4D7ABB-81A9-4029-9BE2-4B7BDC0F2259}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mall.Common", "base.Common\Mall.Common.csproj", "{9C4D7ABB-81A9-4029-9BE2-4B7BDC0F2259}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{829AEA29-139D-4577-9FF4-641D54F9375E}"
 EndProject
