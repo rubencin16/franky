@@ -87,7 +87,6 @@ namespace TweetSearcher
                                 //}
                                 //else
                                 //{
-
                                     stream.MatchingTweetReceived += (sender, arg) =>
                                     {
                                         var print = newoption == 1 ? track : string.Join(" ", tracks);
