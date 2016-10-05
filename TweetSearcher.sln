@@ -12,11 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TweetSearcher", "src\TweetSearcher\TweetSearcher.xproj", "{E2F05DC9-A1C4-4E26-BCA6-647557CFB761}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{7DAD3594-9E90-455D-9C4A-E759092D154E}"
-	ProjectSection(SolutionItems) = preProject
-		AccountData.cs = AccountData.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +28,5 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E2F05DC9-A1C4-4E26-BCA6-647557CFB761} = {1ABD0775-2E6B-4F2D-98F9-89B5B397F5D3}
-		{7DAD3594-9E90-455D-9C4A-E759092D154E} = {1ABD0775-2E6B-4F2D-98F9-89B5B397F5D3}
 	EndGlobalSection
 EndGlobal

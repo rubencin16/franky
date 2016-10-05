@@ -1,7 +1,7 @@
 ﻿using System;
 using Tweetinvi;
 
-namespace TweetSearcher
+namespace TweetSearcher.Helpers
 {
     public class AccountData
     {
