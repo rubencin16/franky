@@ -1,5 +1,4 @@
-﻿using System;
-using Tweetinvi;
+﻿using Tweetinvi;
 
 namespace TweetSearcher.Helpers
 {

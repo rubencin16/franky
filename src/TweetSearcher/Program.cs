@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tweetinvi;
 using TweetSearcher.Helpers;
 
@@ -19,7 +15,7 @@ namespace TweetSearcher
             Console.ReadKey();
         }
 
-        static void GetUserInput()
+        private static void GetUserInput()
         {
             ConsoleColor originalColor = Console.ForegroundColor;
             Console.ForegroundColor = originalColor;
@@ -37,12 +33,15 @@ namespace TweetSearcher
                         case 1:
                             Console.WriteLine("This option is not for you...sorry\nTry another one");
                             break;
+
                         case 2:
                             Console.WriteLine("Ña");
                             break;
+
                         case 3:
                             StartStream();
                             break;
+
                         default:
                             Console.WriteLine("There was an error ");
                             break;
@@ -61,7 +60,7 @@ namespace TweetSearcher
             }
         }
 
-        static void StartStream()
+        private static void StartStream()
         {
             string userInput = string.Empty;
             var track = string.Empty;
@@ -95,6 +94,7 @@ namespace TweetSearcher
                             case 1:
                                 stream.AddTrack(track);
                                 break;
+
                             case 2:
                                 if (tracks.Count() > 1)
                                 {
@@ -108,6 +108,7 @@ namespace TweetSearcher
                                     stream.AddTrack(track);
                                 }
                                 break;
+
                             default:
                                 Console.WriteLine("There's no option for this");
                                 break;
@@ -127,10 +128,8 @@ namespace TweetSearcher
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine($" {arg.Tweet}");
                         Console.ForegroundColor = ConsoleColor.Yellow;
-
                     };
                     stream.StartStreamMatchingAllConditions();
-
                 }
             }
             else
@@ -139,7 +138,7 @@ namespace TweetSearcher
             }
         }
 
-        static void Stream_MatchingTweetReceived(object sender, Tweetinvi.Events.MatchedTweetReceivedEventArgs e)
+        private static void Stream_MatchingTweetReceived(object sender, Tweetinvi.Events.MatchedTweetReceivedEventArgs e)
         {
             throw new NotImplementedException();
         }
